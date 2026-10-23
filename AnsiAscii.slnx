@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="src/Ascii/Ascii.csproj" />
+  <Project Path="src/Gallery/Gallery.csproj" />
+  <Project Path="src/Selector/Selector.csproj" />
+</Solution>
