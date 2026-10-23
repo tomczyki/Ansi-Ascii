@@ -55,6 +55,8 @@ internal class Program
         {
             Console.Write($"\e[8;{prevHeight};{prevWidth}t");
             Console.CursorVisible = true;
+
+            Environment.Exit(exitCode: 0);
         };
 
         _animation.ResizeConsole();
