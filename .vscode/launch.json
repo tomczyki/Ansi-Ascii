@@ -1,0 +1,30 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Gallery: .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildGallery",
+            "program": "${workspaceFolder}/src/Gallery/bin/Debug/net10.0/Gallery.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        },
+        {
+            "name": "Ascii: .NET Core Launch (console)",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "buildAscii",
+            "program": "${workspaceFolder}/src/Ascii/bin/Debug/net10.0/Ascii.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}",
+            "console": "externalTerminal",
+            "stopAtEntry": false
+        }
+    ]
+}
